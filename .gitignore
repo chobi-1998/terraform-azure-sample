@@ -1,6 +1,9 @@
 # Local .terraform directories
 .terraform/
 
+# Local environment variables (Azure auth)
+set-azure-env.ps1
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
