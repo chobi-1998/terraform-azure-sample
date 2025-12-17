@@ -2,6 +2,9 @@
 .terraform/
 backend.hcl
 
+# Azure auth (local only)
+set-azure-env.ps1
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
